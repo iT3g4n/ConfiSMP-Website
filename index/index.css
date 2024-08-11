@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+    font-family: 'Minecraft', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #252525;
+    color: #ffffff;
+    background-image: url('/pictures/background.png');
+    background-position: 43%;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    background-color: #252525;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.box2 {
+    align-self: left;
+    vertical-align: middle;
+    flex: 2;
+    margin-right: 20px;
+}
+
+.box3 {
+    height: 100%;
+    align-self: right;
+    vertical-align: middle;
+    flex: 1;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.inner_box {
+    padding: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.navbar .logo {
+    font-size: 45px;
+    
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 2s ease-out;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #666666;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.top_margin {
+    margin-top: 20px;
+}
+
+.sidebar .join-btn:hover {
+    background-color: #45a049;
+}
+
+.updates {
+    font-size: 30px;
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.server_ip {
+    font-size: 30px;
+    margin: 0;
+}
+
+.description {
+    padding-bottom: 20px;
+}
+
+.ip_box {
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(80, 101, 48);
+    border-radius: 2px;
+    max-width: 350px;
+}

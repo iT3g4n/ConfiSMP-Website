@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/  # Disallow crawling of the /admin/ directory
+Disallow: /private/  # Disallow crawling of the /private/ directory
+Disallow: /cgi-bin/  # Disallow crawling of the /cgi-bin/ directory
+
+# Block specific files
+Disallow: /example.pdf  # Disallow crawling of example.pdf
+
+# Allow all other pages
+Allow: /
+
+# Set crawl delay (in seconds)
+# Crawl-delay: 10  # Uncomment this line to set a crawl delay of 10 seconds
